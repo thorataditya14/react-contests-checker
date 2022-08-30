@@ -1,0 +1,69 @@
+.contestContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.contestRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    border-bottom: 1px solid #d7d7d7;
+    background-color: transparent;
+    padding: 5px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.contestData {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 100%;
+}
+
+.contest {
+    display: flex;
+    align-items: center;
+}
+
+.contestName {
+    font-size: 20px;
+    width: 400px;
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+
+}
+
+.contestDetails {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 300px;
+}
+
+.contest a button {
+    margin-left: 20px;
+    height: 50px;
+    width: 200px;
+    padding: 0px 10px 0px 10px;
+    background-color: #3aafa9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contest a button:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.2s;
+}
